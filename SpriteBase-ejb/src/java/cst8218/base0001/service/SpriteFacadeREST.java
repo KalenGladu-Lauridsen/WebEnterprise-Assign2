@@ -16,6 +16,8 @@ import javax.persistence.PersistenceContext;
  *
  * @author Todd Kelley
  */
+//Specified roles
+//Only Admin and RestGroup will be able to access the functions bellow
 @DeclareRoles({"Admin","Regular","RestGroup","JsfGroup"})
 @javax.ejb.Stateless
 @javax.ws.rs.Path("cst8218.base0001.entity.sprite")
