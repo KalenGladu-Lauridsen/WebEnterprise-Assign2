@@ -27,6 +27,7 @@ import javax.security.enterprise.identitystore.PasswordHash;
         hashAlgorithm = PasswordHash.class,
         priority = 10
 )
+//Adding basic authentication to the application
 @BasicAuthenticationMechanismDefinition
 //If custom form is wanted
 //@FormAuthenticationMechanismDefinition (
